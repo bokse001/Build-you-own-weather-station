@@ -2,8 +2,9 @@
 Workshop documentation on building your own nodeMCU based weatherstation
 
 ## Connect hardware on breadboard
- 
-![Connecting the hardware]({{//bokse001/Build-you-own-weather-station/blob/master/nodemcu%20weatherstation_bb.jpg}})
+
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/nodemcu%20weatherstation_bb.jpg" alt="Connecting the hardware">
+
 - DHT pin 1 to 3,3V
 - DHT pin 2 to D4
 - DHT pin 4 to GND
