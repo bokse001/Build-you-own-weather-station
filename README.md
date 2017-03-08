@@ -32,12 +32,14 @@ When Connectivity to the board does not work:
 
 ## Test your laptop and nodeMCU setup
 - Load the example sketch “Blink” into the Arduino IDE from File->Examples->01 Basics->Blink
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/blink.png" alt="Examples">
-- Try compiling it by pressing the Verify button
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/blink.png" alt="Blink">
+- Try compiling it by pressing the Verify button: 
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/verify.png" alt="Verify">
 - When ok, connect the nodeMCU to your laptop:
 	- 	Connect the nodeMCU with the USB cable
 	- 	Via Tools -> Port, check if the correct COMxx port is selected
-	- 	Upload the sketch by pressing the Upload button
+	- 	Upload the sketch by pressing the Upload button:
+	<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/upload.png" alt="Upload">
 	- 	Wait till the sketch is compiled and uploaded
 - The blue led on the nodeMCU should now start blinking
 
