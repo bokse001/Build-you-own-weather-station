@@ -27,7 +27,7 @@ When Connectivity to the board does not work:
 
 
 ## Test your laptop and nodeMCU setup
-- Load the example sketch “blink” into the Arduino IDE from File->Examples->01 Basics->Blink
+- Load the example sketch “Blink” into the Arduino IDE from File->Examples->01 Basics->Blink
 - Try compiling it by pressing the Verify button
 - When ok, connect the nodeMCU to your laptop:
 	- 	Connect the nodeMCU with the USB cable
@@ -38,7 +38,7 @@ When Connectivity to the board does not work:
 
 
 ## Test to see if the nodeMCU can measure temperature and humidity
-- Load the example sketch “DHTtester” into the Arduino IDE from File->Exmaples->DHT sensor library->DHTtester
+- Load the example sketch “DHTtester” into the Arduino IDE from File->Examples->DHT sensor library->DHTtester
 - Try compiling it by pressing the Verify button
 - When ok:
 	- 	Connect the nodeMCU with the USB cable
