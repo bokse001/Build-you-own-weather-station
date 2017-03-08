@@ -3,14 +3,14 @@ Workshop documentation on building your own nodeMCU based weatherstation
 
 ## Connect hardware on breadboard
 
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/nodemcu%20weatherstation_bb.jpg" alt="Connecting the hardware">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/nodemcu%20weatherstation_bb.jpg" alt="Connecting the hardware">
 
 - DHT pin 1 to 3,3V
 - DHT pin 2 to D4
 - DHT pin 4 to GND
 - Resistor to 3,3V and DHT pin 2
 
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/IDE.png" alt="Arduino IDE">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/images/master/IDE.png" alt="Arduino IDE">
  
 ## Prepare your laptop for ESP development
 1. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
@@ -21,9 +21,9 @@ Workshop documentation on building your own nodeMCU based weatherstation
 1. Close and re-open Arduino IDE
 1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
 
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/settings.png" alt="Settings">
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/boards.png" alt="Boards manager">
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/libraries.png" alt="Libraries">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/settings.png" alt="Settings">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/boards.png" alt="Boards manager">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/libraries.png" alt="Libraries">
 
 When Connectivity to the board does not work:
 - Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting) https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
@@ -53,7 +53,7 @@ When Connectivity to the board does not work:
 	- 	Wait till the sketch is compiled and uploaded
 	- 	Open the monitor Tools->Serial Monitor
 - Message with the temperature and humidty should appear within the monitor
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/examples.png" alt="Examples">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/examples.png" alt="Examples">
 
 ## Test to see if the nodeMCU can function as a web server
 - Load the example sketch “AdvancedWebServer” into the Arduino IDE from File->Examples->ESP8266WebServer
