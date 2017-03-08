@@ -10,6 +10,7 @@ Workshop documentation on building your own nodeMCU based weatherstation
 - DHT pin 4 to GND
 - Resistor to 3,3V and DHT pin 2
 
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/IDE.png" alt="Arduino IDE">
  
 ## Prepare your laptop for ESP development
 1. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
@@ -19,6 +20,10 @@ Workshop documentation on building your own nodeMCU based weatherstation
 1. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor library" libraries
 1. Close and re-open Arduino IDE
 1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
+
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/settings.png" alt="Settings">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/boards.png" alt="Boards manager">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/libraries.png" alt="Libraries">
 
 When Connectivity to the board does not work:
 - Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting) https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
@@ -37,6 +42,7 @@ When Connectivity to the board does not work:
 - The blue led on the nodeMCU should now start blinking
 
 
+
 ## Test to see if the nodeMCU can measure temperature and humidity
 - Load the example sketch “DHTtester” into the Arduino IDE from File->Examples->DHT sensor library->DHTtester
 - Try compiling it by pressing the Verify button
@@ -47,7 +53,7 @@ When Connectivity to the board does not work:
 	- 	Wait till the sketch is compiled and uploaded
 	- 	Open the monitor Tools->Serial Monitor
 - Message with the temperature and humidty should appear within the monitor
-
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/examples.png" alt="Examples">
 
 ## Test to see if the nodeMCU can function as a web server
 - Load the example sketch “AdvancedWebServer” into the Arduino IDE from File->Examples->ESP8266WebServer
