@@ -27,12 +27,12 @@ Workshop documentation on building your own nodeMCU based weatherstation
 When Connectivity to the board does not work:
 - Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting) https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 - After rebooting open the Arduino IDE and select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
-
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/examples.png" alt="Examples">
 
 
 ## Test your laptop and nodeMCU setup
 - Load the example sketch “Blink” into the Arduino IDE from File->Examples->01 Basics->Blink
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/examples.png" alt="Examples">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/blink.png" alt="Examples">
 - Try compiling it by pressing the Verify button
 - When ok, connect the nodeMCU to your laptop:
 	- 	Connect the nodeMCU with the USB cable
