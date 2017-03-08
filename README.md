@@ -27,30 +27,30 @@ When Connectivity to the board does not work:
 
 
 ## Test your laptop and nodeMCU setup
-- Load the example sketch “blink” into the Arduino IDE
-- Try compiling it by pressing the Verify button: 
-- When ok:
+- Load the example sketch “blink” into the Arduino IDE from File->Examples->01 Basics->Blink
+- Try compiling it by pressing the Verify button
+- When ok, connect the nodeMCU to your laptop:
 	- 	Connect the nodeMCU with the USB cable
-	- 	Via Tools > Port, check if there is a COMxx port selected
-	- 	Upload the sketch by pressing the Upload button: 
+	- 	Via Tools -> Port, check if the correct COMxx port is selected
+	- 	Upload the sketch by pressing the Upload button
 	- 	Wait till the sketch is compiled and uploaded
 - The blue led on the nodeMCU should now start blinking
 
 
 ## Test to see if the nodeMCU can measure temperature and humidity
-- Load the example sketch “DHTtester” into the Arduino IDE
-- Try compiling it by pressing the Verify button: 
+- Load the example sketch “DHTtester” into the Arduino IDE from File->Exmaples->DHT sensor library->DHTtester
+- Try compiling it by pressing the Verify button
 - When ok:
 	- 	Connect the nodeMCU with the USB cable
-	- 	Via Tools > Port, check if there is a COMxx port selected
+	- 	Via Tools -> Port, check if the correct COMxx port is selected
 	- 	Upload the sketch by pressing the Upload button: 
 	- 	Wait till the sketch is compiled and uploaded
-	- 	Open the monitor
+	- 	Open the monitor Tools->Serial Monitor
 - Message with the temperature and humidty should appear within the monitor
 
 
 ## Test to see if the nodeMCU can function as a web server
-- Load the example sketch “nodemcu_bmp_web” into the Arduino IDE
+- Load the example sketch “AdvancedWebServer” into the Arduino IDE from File->Examples->ESP8266WebServer
 - Find the line with the *ssid and change it to the ssid given to you in the workshop
 - Find the line with the *password and change it to password given to you in the workshop
 - Try compiling it by pressing the Verify button: 
