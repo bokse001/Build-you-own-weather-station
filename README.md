@@ -32,6 +32,7 @@ When Connectivity to the board does not work:
 
 ## Test your laptop and nodeMCU setup
 - Load the example sketch “Blink” into the Arduino IDE from File->Examples->01 Basics->Blink
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/examples.png" alt="Examples">
 - Try compiling it by pressing the Verify button
 - When ok, connect the nodeMCU to your laptop:
 	- 	Connect the nodeMCU with the USB cable
@@ -52,7 +53,7 @@ When Connectivity to the board does not work:
 	- 	Wait till the sketch is compiled and uploaded
 	- 	Open the monitor Tools->Serial Monitor
 - Message with the temperature and humidty should appear within the monitor
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/examples.png" alt="Examples">
+
 
 ## Test to see if the nodeMCU can function as a web server
 - Load the example sketch “AdvancedWebServer” into the Arduino IDE from File->Examples->ESP8266WebServer
