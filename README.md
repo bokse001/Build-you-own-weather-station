@@ -53,11 +53,11 @@ When Connectivity to the board does not work:
 - Load the example sketch “AdvancedWebServer” into the Arduino IDE from File->Examples->ESP8266WebServer
 - Find the line with the *ssid and change it to the ssid given to you in the workshop
 - Find the line with the *password and change it to password given to you in the workshop
-- Try compiling it by pressing the Verify button: 
+- Try compiling it by pressing the Verify button 
 - When ok:
 	- 	Connect the nodeMCU with the USB cable
-	- 	Via Tools > Port, check if there is a COMxx port selected
-	- 	Upload the sketch by pressing the Upload button: 
+	- 	Via Tools -> Port, check if the correct COMxx port is selected
+	- 	Upload the sketch by pressing the Upload button 
 	- 	Wait till the sketch is compiled and uploaded
 	- 	Open the monitor
 - A message should be displayed with “IP address: www.xxx.yyy.zzz”
@@ -66,7 +66,7 @@ When Connectivity to the board does not work:
 
 
 ## Advanced Extra: combine the webserver and DHT sensor sketch to display the temperature and humidity from your laptop or mobile phone
-- Open both the sketches “nodemcu_bmp_web” and “DHTtester” and find a way to combine the necessary code from DHTtester into the nodemcu_bmp_web examples.
+- Open both the sketches “AdvancedWebServer” and “DHTtester” and find a way to combine the necessary code from DHTtester into the AdvancedWebServer examples.
 - Do not forget to save it under a new name like “my_weatherstation”
 
 
@@ -77,8 +77,8 @@ When Connectivity to the board does not work:
 - Try compiling it by pressing the Verify button: 
 - When ok:
 	- 	Connect the nodeMCU with the USB cable
-	- 	Via Tools > Port, check if there is a COMxx port selected
-	- 	Upload the sketch by pressing the Upload button: 
+	- 	Via Tools -> Port, check if the correct COMxx port is selected
+	- 	Upload the sketch by pressing the Upload button 
 	- 	Wait till the sketch is compiled and uploaded
 	- 	Open the monitor
 - A message should be displayed with “IP address: www.xxx.yyy.zzz”
