@@ -15,10 +15,13 @@ Workshop documentation on building your own nodeMCU based weatherstation
 1. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
 1. File > Preferences, check the “Display line numbers option“
 1. Add the URL http://arduino.esp8266.com/stable/package_esp8266com_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
-1. Tools > Boards > Boards Manager, install the ESP8266 platform
-1. Sketch > Include Library > Manage Libraries, install the Adafruit sensor and Adafruit Unified Sensor library library
-1. Close Arduino IDE
-1. (if needed) Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting)
+1. Tools > Boards > Boards Manager, install the "esp8266" board package
+1. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor library" libraries
+1. Close and re-open Arduino IDE
+1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
+
+When Connectivity to the board does not work:
+1. Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting) https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 1. After rebooting open the Arduino IDE and select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
 
 
