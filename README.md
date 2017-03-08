@@ -10,20 +10,19 @@ Workshop documentation on building your own nodeMCU based weatherstation
 - DHT pin 4 to GND
 - Resistor to 3,3V and DHT pin 2
 
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/images/master/IDE.png" alt="Arduino IDE">
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/IDE.png" alt="Arduino IDE">
  
 ## Prepare your laptop for ESP development
 1. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
 1. File > Preferences, check the “Display line numbers option“
 1. Add the URL http://arduino.esp8266.com/stable/package_esp8266com_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/settings.png" alt="Settings">
 1. Tools > Boards > Boards Manager, install the "esp8266" board package
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/boards.png" alt="Boards manager">
 1. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor library" libraries
+<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/libraries.png" alt="Libraries">
 1. Close and re-open Arduino IDE
 1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
-
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/settings.png" alt="Settings">
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/boards.png" alt="Boards manager">
-<img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/libraries.png" alt="Libraries">
 
 When Connectivity to the board does not work:
 - Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting) https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
