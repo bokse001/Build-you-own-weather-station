@@ -1,4 +1,4 @@
-# Build-you-own-weather-station
+# Build-your-own-weather-station
 Workshop documentation on building your own nodeMCU based weatherstation
 
 ## Connect hardware on breadboard
