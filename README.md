@@ -19,7 +19,7 @@ Workshop documentation on building your own nodeMCU based weatherstation
 <img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/settings.png" alt="Settings">
 1. Tools > Boards > Boards Manager, install the "esp8266" board package
 <img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/boards.png" alt="Boards manager">
-1. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor library" libraries
+1. Sketch > Include Library > Manage Libraries, install the "DHT sensor library" and the "Adafruit Unified Sensor" libraries
 <img src="https://github.com/bokse001/Build-you-own-weather-station/blob/master/images/libraries.png" alt="Libraries">
 1. Close and re-open Arduino IDE
 1. Select the proper board from Tools->Board->Board ”nodeMCU 1.0 (ESP-12E Module)”
