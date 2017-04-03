@@ -52,8 +52,8 @@
 // Connect pin 4 (on the right) of the sensor to GROUND
 // Connect a 10K resistor from pin 2 (data) to pin 1 (power) of the sensor
 
-const char *ssid = "AndroidAP";
-const char *password = "pafh9483";
+const char *ssid = "<own ssid>";
+const char *password = "<own pw>";
 
 ESP8266WebServer server ( 80 );
 
